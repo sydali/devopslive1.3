@@ -37,7 +37,6 @@ CONTAINER ID   IMAGE        COMMAND                  CREATED         STATUS     
 3ea6aa7e4382   nginx        "/docker-entrypoint.…"   44 hours ago    Up 44 hours        80/tcp                                      blissful_shtern
 
 
-```
  
 
 
