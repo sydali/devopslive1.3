@@ -139,6 +139,15 @@ root@dice-devops:/home# ls /var/lib/docker/volumes/my_volume/_data
 root@dice-devops:/home#
 
 
+root@dice-devops:/home# docker rm  41552915e7d6621d09ea022be90d0a711f53adca4f4ee04c0ffe2541cb4ae9b0 9ca5f3f5032a31984cf806337348c9c7e6df9977390ea96f2ab0f0fe56a26959
+41552915e7d6621d09ea022be90d0a711f53adca4f4ee04c0ffe2541cb4ae9b0
+9ca5f3f5032a31984cf806337348c9c7e6df9977390ea96f2ab0f0fe56a26959
+root@dice-devops:/home# docker volume rm my_volume
+my_volume
+root@dice-devops:/home#
+
+
+
 ```
  
 
