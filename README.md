@@ -38,11 +38,11 @@ CONTAINER ID   IMAGE        COMMAND                  CREATED         STATUS     
 
 
  
-
+```
 
 ![image](https://github.com/sydali/devopslive1.3/assets/449393/2d70f043-a530-4786-bfbe-4b8157a5a96b)
 
-
+```
 root@dice-devops:/home# docker cp index.html NGIN:/usr/share/nginx/html
 Successfully copied 2.05kB to NGIN:/usr/share/nginx/html
 root@dice-devops:/home# docker stop NGIN
@@ -62,8 +62,8 @@ CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS    
 3ea6aa7e4382   nginx        "/docker-entrypoint.…"   44 hours ago     Up 44 hours        80/tcp                                      blissful_shtern
 
 
+```
+
  ![image](https://github.com/sydali/devopslive1.3/assets/449393/98b78248-b1d8-4557-9430-4538e1ac028e)
 
-
  
-```
