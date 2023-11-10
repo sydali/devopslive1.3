@@ -62,8 +62,8 @@ CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS    
 3ea6aa7e4382   nginx        "/docker-entrypoint.…"   44 hours ago     Up 44 hours        80/tcp                                      blissful_shtern
 
 
+ ![image](https://github.com/sydali/devopslive1.3/assets/449393/98b78248-b1d8-4557-9430-4538e1ac028e)
 
-![image](https://github.com/sydali/devopslive1.3/assets/449393/966b1477-1f5e-4625-a7c7-87b9085e0721)
 
  
 ```
