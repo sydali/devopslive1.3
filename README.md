@@ -105,11 +105,41 @@ e11ecac27c7a   httpd        "httpd-foreground"       22 seconds ago   Up 21 seco
 
 ```
 
-![image](https://github.com/sydali/devopslive1.3/assets/449393/5e7f6f12-6c04-469e-98b2-bbac04ff0a23)
+
+![image](https://github.com/sydali/devopslive1.3/assets/449393/65a0c7a4-c95a-4f6c-8e36-73343d45cd8c)
 
 
 
 
+```
+root@dice-devops:/home# docker cp about.html HTTPD:/usr/local/apache2/htdocs
+Successfully copied 2.05kB to HTTPD:/usr/local/apache2/htdocs
+
+```
+
+![image](https://github.com/sydali/devopslive1.3/assets/449393/8ad2e546-6f9a-4bcb-befd-fa0b847f0d68)
+
+
+```
+
+root@dice-devops:/home# docker volume inspect my_volume
+[
+    {
+        "CreatedAt": "2023-11-10T05:49:54Z",
+        "Driver": "local",
+        "Labels": null,
+        "Mountpoint": "/var/lib/docker/volumes/my_volume/_data",
+        "Name": "my_volume",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+root@dice-devops:/home# ls /var/lib/docker/volumes/my_volume/_data
+50x.html  about.html  index.html
+root@dice-devops:/home#
+
+
+```
  
 
  
